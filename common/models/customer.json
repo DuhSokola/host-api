@@ -7,24 +7,20 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "string",
-      "required": true
-    },
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "prename": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "email": {
-      "type": "string",
-      "required": true
-    },
-    "sex": {
       "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true
     }
   },
   "validations": [],

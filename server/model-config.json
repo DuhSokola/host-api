@@ -33,11 +33,9 @@
     "public": false
   },
   "customer": {
-    "dataSource": "db",
-    "public": true
-  },
-  "person": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "hostDB",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
